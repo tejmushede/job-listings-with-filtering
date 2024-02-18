@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg-color: hsl(180, 52%, 96%);
+  --categories-bg-color: hsl(180, 31%, 95%);
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark-grayish-cyan: hsl(180, 14%, 20%);
+  --desaturated-dark-cyan: hsl(180, 29%, 50%);
+}
+
+body{
+  
+}
+
+.bg-header-desktop{
+  display: none;
+}
+
+.job-listings-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color); 
+}
+
+@media (min-width: 1024px) {
+  
+  .bg-header-mobile{
+    display: none;
+  }
+
+  .bg-header-desktop{
+    display: flex;
+  }
+
+
+}
